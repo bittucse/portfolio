@@ -27,6 +27,10 @@ import motioncut from "./company/motioncut.jpeg";
 import nikey from "./nike-image.png";
 import dicegame from "./dice-game-image.png";
 import tripguide from "./tripguide.png";
+import spotifylogo from "./spotify-logo.webp";
+import codinateimg from "./codinate-img.png";
+import promptshare from "./promptshare.png";
+
 
 // education
 import cbit_logo from "./cbit3.webp";
@@ -65,6 +69,9 @@ export {
   nikey,
   dicegame,
   tripguide,
+  spotifylogo,
+  codinateimg,
+  promptshare,
 
   cbit_logo,
   krishnaveni_logo,

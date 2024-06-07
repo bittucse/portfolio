@@ -6,7 +6,7 @@ import { github } from "../assets"
 import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn,textVariant } from "../utils/motion"
-import { HiOutlineLink } from "react-icons/hi";
+import { PiEyeBold } from "react-icons/pi";
 
 
 
@@ -24,7 +24,7 @@ const ProjectCard = ({index,name,description,tags,image,source_code_link,live_li
           </div>
           <div onClick={()=> window.open(live_link,"_blank")}
           className=" black-gradient w-10 h-10 m-2 rounded-full flex justify-center items-center cursor-pointer">
-          <HiOutlineLink className=" text-xl"/>
+          <PiEyeBold className=" text-xl"/>
           </div>
         </div>
       </div>

@@ -8,6 +8,7 @@ import SectionWrapper from "../hoc/SectionWrapper";
 import { slideIn } from "../utils/motion";
 import { SiLinkedin } from "react-icons/si";
 import { ImGithub } from "react-icons/im";
+import { BsTwitterX } from "react-icons/bs";
 
 
 
@@ -115,8 +116,11 @@ const Contact = () => {
 
           <div className="flex items-center gap-14"><button type="submit" className=" bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-primary
            rounded-xl">{loading? 'Sending...':'Send'}</button>
-           <SiLinkedin className=" w-7 h-7 cursor-pointer" onClick={()=>window.open("https://www.linkedin.com/in/mohammad-fardeen-62889622a/","_black")}/>
-           <ImGithub className=" w-7 h-7 cursor-pointer" onClick={()=>window.open("https://github.com/bittucse","_black")} /></div>
+           <SiLinkedin className=" w-7 h-7 cursor-pointer" onClick={()=>window.open("https://www.linkedin.com/in/mohammad-fardeen/","_black")}/>
+           <ImGithub className=" w-7 h-7 cursor-pointer" onClick={()=>window.open("https://github.com/bittucse","_black")} />
+           <BsTwitterX className=" w-7 h-7 cursor-pointer" onClick={()=>window.open("https://x.com/md_jacob7","_black")} />
+
+           </div>
 
         </form>
       </motion.div>

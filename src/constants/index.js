@@ -16,6 +16,9 @@ import {
     motioncut,
     nikey,
     dicegame,
+    spotifylogo,
+    codinateimg,
+    promptshare,
     threejs,
     c_programming,
     python,
@@ -210,6 +213,68 @@ import {
       image: dicegame,
       source_code_link: "https://github.com/bittucse/Dice_game_react",
       live_link:"https://fardeen-dice-game.netlify.app/",
+    },
+    {
+      name: "Spotify UI",
+      description:
+      "A website with a user interface (UI) similar to Spotify's, featuring sleek design and user-friendly navigation, built using HTML and CSS for a seamless and visually appealing experience.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: spotifylogo,
+      source_code_link: "https://github.com/bittucse/spotify_clone",
+      live_link:"https://fardeen-spotify-clone.netlify.app/",
+    },
+    {
+      name: "Prompt Share",
+      description:
+      "A web application where users can discover new prompts for various purposes, share their own creative prompts, and engage with a community of like-minded individuals for inspiration and idea exchange.",
+      tags: [
+        {
+          name: "Next js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next Auth",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: promptshare,
+      source_code_link: "https://github.com/bittucse/Prompt-Share",
+      live_link:"https://prompt-share-theta.vercel.app/",
+    },
+    {
+      name: "Codinate",
+      description:
+      "A web application for collaborative coding lets developers work together in real-time on the same code editor, enhancing teamwork and productivity through seamless, synchronous code editing.",
+      tags: [
+        {
+          name: "MERN Stack",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Socket-io",
+          color: "green-text-gradient",
+        },
+      ],
+      image: codinateimg,
+      source_code_link: "https://github.com/bittucse/codinate",
+      live_link:"https://github.com/bittucse/codinate",
     },
     
   ];
