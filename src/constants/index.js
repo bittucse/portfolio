@@ -30,6 +30,8 @@ import {
     bit_hackathon,
     leetcode,
     hackerrank,
+    codingninjas,
+    ideathon,
   } from "../assets";
   
   export const navLinks = [
@@ -332,9 +334,16 @@ const achievement=[
   {
     name: "Data Structures and Algorithms",
     description:
-      "5 star, Golden Batch for Problem Solving on HACKERANK",
-    image: hackerrank,
-    profile_link:"https://www.hackerrank.com/profile/fardeenadil954",
+      "Solved 100+ question in coding ninjas",
+    image: codingninjas,
+    profile_link:"https://www.naukri.com/code360/profile/Jacob7",
+  },
+  {
+    name: "ACIC ideathon",
+    description:
+      "Winner in Chaitanyam - Freshmen Ideathon (Atal Community Innovation Centre)",
+    image: ideathon,
+    profile_link:"https://drive.google.com/file/d/1H8Bb6LaK3HPFkruEwedxR42luENLzJHl/view",
   },
 
 

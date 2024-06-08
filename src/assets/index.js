@@ -42,6 +42,8 @@ import bit_hackathon from "./achieve/hackathon.jpeg";
 import stack_hackathon from "./achieve/hackathon.jpeg";
 import leetcode from "./achieve/leetcode.png";
 import hackerrank from "./achieve/hackerrank.png";
+import codingninjas from "./achieve/codingninjas.png";
+import ideathon from "./achieve/ideathon.png";
 
 export {
   logo,
@@ -81,4 +83,6 @@ export {
   stack_hackathon,
   leetcode,
   hackerrank,
+  codingninjas,
+  ideathon,
 };
